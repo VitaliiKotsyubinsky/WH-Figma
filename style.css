@@ -1,0 +1,171 @@
+body{
+max-width: 1126px;
+margin: 0 auto;
+font-family: 'Poppins', sans-serif;
+}
+.Header{
+    width: 100%;
+    max-width: 1400px;
+    max-height: 78px;
+    padding-top: 42px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    display: block;
+    width: 158px;
+    height: 34px;
+    background-image: url(img/Logo.png);
+    
+}
+
+nav{
+    display: flex;
+    margin-right: 145px;
+    justify-content: center;
+    
+}
+ul{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+li{
+    margin-right: 30px;
+}
+.buttons{
+    margin:10px auto ;
+}
+.in{
+    padding: 11px 25px;
+    color:#173A56;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    margin-right: 14px;
+    border: 2px solid #BCD0E5;
+    font-family: 'Poppins', sans-serif , bold;
+    line-height: 24px;
+    font-size: 16px;
+    
+}
+.up{
+    padding: 11px 25px;
+    color:#FFFFFF;
+    border: 0;
+    background-color: #FF9900;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif,bold;
+    line-height: 24px;
+    font-size: 16px;
+}
+.main{
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+.main_text{
+    padding-top: 70px;
+}
+.main_text>h1{
+    color: #2F281E;
+    font-size: 44px;
+    line-height: 54px
+}
+.main_text>p{
+    width: 458px;
+    height: 95px;
+    color:#544837;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.started{
+    margin-top: 40px;
+    padding: 15px 41px;
+    width: 175px;
+    height: 53px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+.video_link{
+    margin-left: 30px;
+    color: #FF9900;
+}
+.main_tools{
+    margin-top: 160px;
+    
+}
+.main_tools p{
+font-weight: 500px;
+font-size: 16px;
+line-height: 26px;
+}
+#main_tools_text{
+    font-size: 36px;
+    line-height: 54px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    color: #2F281E;
+}
+.tools{
+    display: flex;
+    padding-top: 54px;
+    max-width: 1095px;
+}
+.tools h4{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}
+.icon_arow{
+    width: 50px;
+    height: 50px;
+    background-color: #7752BE;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+.icon_snake{
+    width: 50px;
+    height: 50px;
+    background-color: #FAB005;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.icon_hart{
+    width: 50px;
+    height: 50px;
+    background-color: #F03E;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.icon_clock{
+    width: 50px;
+    height: 50px;
+    background-color: #4DADF7;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.main_tools>div{
+    
+}
+
